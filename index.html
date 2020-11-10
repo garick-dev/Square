@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Square</title>
+</head>
+<body>  
+    <div class="outer">
+        <h2>Решение квадратного уравнения  a*x<sup>2</sup> + b*x + c = 0</h2>
+        <form name = "sq" action="javascript:square()">
+                a <input name="sq_a" value="1" size="4">
+                b <input name="sq_b" value="2" size="4">
+                c <input name="sq_c" value="1" size="4">
+                <button>Посчитать</button>
+        </form>
+        <hr>
+        <p class="manual-text"> Решение: <span id="sq_sol">Введите коэффициенты и нажмите "Посчитать"</span></p>
+    </div>
+    
+    <script src="./js/my.js"></script>
+</body>
+</html>
