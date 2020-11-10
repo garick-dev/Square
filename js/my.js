@@ -10,7 +10,7 @@ function square() {
         str = "Вещественных корней нет";
     }
     else if (d == 0) {
-        let str = "Два одинаковых вещественных корня: <br>x<sub>1</sub> = x <sub>2</sub>";
+        str = "Два одинаковых вещественных корня: <br>x<sub>1</sub> = x <sub>2</sub> = ";
         str += -b / (2*a);
         str +="." 
     }
